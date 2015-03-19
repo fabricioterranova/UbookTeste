@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+    <!--Shot Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageShot"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp">
+    </com.android.volley.toolbox.NetworkImageView>
+
+    <!-- Shot title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title"
+        android:layout_alignTop="@+id/imageShot"
+        android:layout_toRightOf="@+id/imageShot"
+        android:textStyle="bold"/>
+
+    <!-- Shot View Count -->
+    <TextView
+        android:id="@+id/txt_view_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/views_count"
+        android:layout_below="@+id/txtTitle"
+        android:layout_toRightOf="@+id/imageShot"
+        android:layout_marginTop="1dip"/>
+
+    <!-- Shot Date Created -->
+    <TextView
+        android:id="@+id/txt_created_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/created_at"
+        android:layout_below="@+id/txt_view_count"
+        android:layout_toRightOf="@+id/imageShot"
+        android:layout_marginTop="5dip" />
+
+</RelativeLayout>

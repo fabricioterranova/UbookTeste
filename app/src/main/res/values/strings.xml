@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UbookTeste</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="shots_list_title">Shot List</string>
+    <string name="shot_details_title">Shot Details</string>
+
+    <string name="loading_label">Loading...</string>
+    <string name="title_activity_dribble_shot_details">DribbleShotDetailsActivity</string>
+
+</resources>
